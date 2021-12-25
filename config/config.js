@@ -118,15 +118,8 @@ let config = {
                 displaySpeed: true,
                 strengthIconSize: 80,
                 maxGaugeScale: 100,
-		wifiSymbol:{
-                    size: 50,
-                    fullColor: '#3afc25',
-                    almostColor: '#ffff0c',
-                    halfColor: '#ff8c00',
-	            noneColor: '#ff1111'
-		},
             },
-	}
+		}
 	]
 };
 
