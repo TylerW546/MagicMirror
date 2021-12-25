@@ -9,7 +9,7 @@
 Module.register("calendar", {
 	// Define module defaults
 	defaults: {
-		maximumEntries: 20, // Total Maximum Entries
+		maximumEntries: 30, // Total Maximum Entries
 		maximumNumberOfDays: 365,
 		limitDays: 0, // Limit the number of days shown, 0 = no limit
 		displaySymbol: true,
