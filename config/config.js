@@ -63,6 +63,17 @@ let config = {
 			}
 		},
 		{
+    	module: "MMM-DailyBuddhismWisdom",
+    	position: "top_bar",
+
+    		config: {
+        		font_size: "medium",
+        		font_weight: "500",
+        		text_align: "center",
+        		show_author_book: false
+    		}
+		},
+		{
 			module: "compliments",
 			position: "lower_third"
 		},
