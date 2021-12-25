@@ -116,21 +116,6 @@ let config = {
 				broadcastNewsUpdates: true
 			}
 		},
-		{
-	    module: 'internet-monitor',
-            position: 'top_center',
-            header: 'Internet Monitor',
-            config:{
-                type: '',
-                maxTime: 20000,
-                updateInterval: 0,
-                verbose: false,
-                displayStrength: true,
-                displaySpeed: true,
-                strengthIconSize: 80,
-                maxGaugeScale: 100,
-            },
-		}
 	]
 };
 
