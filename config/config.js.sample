@@ -107,7 +107,7 @@ let config = {
 		},
     {
 	    module: 'internet-monitor',
-      position: 'bottom_right',
+      position: 'bottom_left',
       header: 'Internet Monitor',
       config:{
         type: '',
