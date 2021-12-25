@@ -107,8 +107,7 @@ let config = {
 		},
     {
 	    module: 'clock',
-      position: 'bottom_left',
-      
+      position: 'bottom_left'
 		}
 	]
 };
