@@ -7,14 +7,7 @@
 Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
-		compliments: {
-			anytime: ["Hey there!"],
-			morning: ["Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Good afternoon!", "Looking good today!"],
-			evening: ["You look nice!"],
-			"....-01-01": ["Happy New Year!"],
-			"....-12-25": ["Merry Christmas!"]
-		},
+		user: "User",
 		updateInterval: 30000,
 		remoteFile: null,
 		fadeSpeed: 4000,
@@ -24,6 +17,14 @@ Module.register("compliments", {
 		afternoonEndTime: 17,
 		random: true,
 		mockDate: null
+	},
+	compliments: {
+		anytime: ["Hey there!"],
+		morning: ["Enjoy your day!", "How was your sleep?"],
+		afternoon: ["Good afternoon!", "Looking good today!"],
+		evening: ["You look nice!"],
+		"....-01-01": ["Happy New Year!"],
+		"....-12-25": ["Merry Christmas!"]
 	},
 	lastIndexUsed: -1,
 	// Set currentweather from module
