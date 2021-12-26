@@ -16,11 +16,12 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		let title = document.createElement("div")
 		title.className = "bright medium light"
 		title.style.textAlign = "center"
+		title.style.lineHeight = "2"
 		
 		let wisdom = document.createElement("div")
 		wisdom.className = "normal small regular"
 		wisdom.style.textAlign = "center"
-		wisdom.style.lineHeight = "1"
+		wisdom.style.lineHeight = "1.25"
 		
 		
 		if (this.today > 0){
