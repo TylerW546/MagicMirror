@@ -85,9 +85,6 @@ let config = {
 		{
 			module: "compliments",
 			position: "lower_third",
-			config: {
-				user: "Tyler"
-			}
 		},
 		{
 			module: "weather",
