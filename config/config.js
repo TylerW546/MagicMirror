@@ -125,18 +125,6 @@ let config = {
 						title: "CNN",
 						url: "http://rss.cnn.com/rss/cnn_topstories.rss"
 					},
-					{
-						title: "Washington Times",
-						url: "https://www.washingtontimes.com/feeds/"
-					},
-					{
-						title: "Science Daily",
-						url: "hhttps://www.sciencedaily.com/rss/"
-					},
-					{
-						title: "New Scientist",
-						url: "https://www.newscientist.com/feed/"
-					},
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
