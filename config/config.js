@@ -120,6 +120,14 @@ let config = {
 					{
 						title: "New York Times",
 						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					},
+					{
+						title: "CNN",
+						url: "http://rss.cnn.com/rss/cnn_topstories.rss"
+					},
+					{
+						title: "GNN Science",
+						url: "https://www.goodnewsnetwork.org/category/news/science/feed/"
 					}
 				],
 				showSourceTitle: true,
