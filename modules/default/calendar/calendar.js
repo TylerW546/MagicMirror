@@ -298,7 +298,9 @@ Module.register("calendar", {
 				}
 			}
 
-			titleWrapper.innerHTML = this.titleTransform(event.title.charAt(0), this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
+			// event.title is modified to remove unknown emojis
+			titleWrapper.innerHTML = this.titleTransform(event.title.replace(/\p{Emoji}/gu, ''), this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
+			
 			const titleClass = this.titleClassForUrl(event.url);
 
 			if (!this.config.colored) {
