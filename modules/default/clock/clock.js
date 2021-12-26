@@ -30,8 +30,8 @@ Module.register("clock", {
 		analogShowDate: "top", // OBSOLETE, can be replaced with analogPlacement and showTime, options: false, 'top', or 'bottom'
 		secondsColor: "#888888",
 
-		showSunTimes: false,
-		showMoonTimes: false,
+		showSunTimes: true,
+		showMoonTimes: true,
 		lat: 42.615929,
 		lon: -70.661987
 	},
