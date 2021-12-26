@@ -23,7 +23,7 @@ Module.register("calendar", {
 		wrapLocationEvents: false,
 		maxTitleLines: 3,
 		maxEventTitleLines: 3,
-		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
+		fetchInterval: 1 * 60 * 1000, // Update every 1 minute.
 		animationSpeed: 2000,
 		fade: false,
 		urgency: 7,
@@ -298,7 +298,7 @@ Module.register("calendar", {
 				}
 			}
 
-			titleWrapper.innerHTML = this.titleTransform(event.title, this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
+			titleWrapper.innerHTML = this.titleTransform(event.title.replace(/\uFFFD/g, ''), this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
 
 			const titleClass = this.titleClassForUrl(event.url);
 
