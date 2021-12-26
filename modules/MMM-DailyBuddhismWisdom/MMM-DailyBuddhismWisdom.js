@@ -14,7 +14,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		const wrapper = document.createElement("div");
 		
 		let title = document.createElement("div")
-		title.className = "title"
+		title.className = "x-large"
 		title.style.fontSize = this.config.font_size
 		title.style.fontWeight = this.config.font_weight
 		title.style.textAlign = this.config.text_align
