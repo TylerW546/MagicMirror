@@ -227,7 +227,7 @@ sup {
   width: 60%;
   text-align: center;
   transform: translateY(-50%);
-  transform: translateX(20%);
+  margin: auto;
 }
 
 .region.upper.third {
