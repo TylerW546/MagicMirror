@@ -146,7 +146,6 @@ sup {
 
 .module {
   margin-bottom: var(--gap-modules);
-  border: 3px solid green;
 }
 
 .region.bottom .module {
@@ -170,7 +169,6 @@ sup {
 
 .region {
   position: absolute;
-  border: 5px solid blue; 
 }
 
 .region.fullscreen {
