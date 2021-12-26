@@ -20,7 +20,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		let wisdom = document.createElement("div")
 		wisdom.className = "normal small regular"
 		wisdom.style.textAlign = "center"
-		wisdom.style.width = "400px"
+		wisdom.style.lineHeight = "1"
 		
 		
 		if (this.today > 0){
