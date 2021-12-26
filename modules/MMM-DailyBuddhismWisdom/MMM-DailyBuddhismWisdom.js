@@ -11,12 +11,20 @@ Module.register("MMM-DailyBuddhismWisdom", {
 	start: function () {
 	},
 	getDom: function() {
-		let element = document.createElement("div")
-		element.className = "myContent"
-		element.style.fontSize = this.config.font_size
-		element.style.fontWeight = this.config.font_weight
-		element.style.textAlign = this.config.text_align
-		element.style.lineHeight = this.config.line_height
+		let title = document.createElement("div")
+		title.className = "title"
+		title.style.fontSize = this.config.font_size
+		title.style.fontWeight = this.config.font_weight
+		title.style.textAlign = this.config.text_align
+		title.style.lineHeight = this.config.line_height
+		
+		let wisdom = document.createElement("div")
+		wisdom.className = "wisdom"
+		title.style.fontSize = this.config.font_size
+		title.style.fontWeight = this.config.font_weight
+		title.style.textAlign = this.config.text_align
+		title.style.lineHeight = this.config.line_height
+		
 		
 		if (this.today > 0){
 			if (this.config.show_page)
