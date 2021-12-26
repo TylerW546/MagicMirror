@@ -31,7 +31,7 @@ Module.register("weather", {
 		decimalSymbol: ".",
 		showIndoorTemperature: false,
 		showIndoorHumidity: false,
-		maxNumberOfDays: 7,
+		maxNumberOfDays: 9,
 		maxEntries: 10,
 		ignoreToday: false,
 		fade: true,
