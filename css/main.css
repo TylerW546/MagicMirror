@@ -227,7 +227,8 @@ sup {
   width: 60%;
   text-align: center;
   transform: translateY(-50%);
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .region.upper.third {
