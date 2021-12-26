@@ -11,20 +11,35 @@ Module.register("MMM-DailyBuddhismWisdom", {
 	start: function () {
 	},
 	getDom: function() {
-		let element = document.createElement("div")
-		element.className = "myContent"
-		element.style.fontSize = this.config.font_size
-		element.style.fontWeight = this.config.font_weight
-		element.style.textAlign = this.config.text_align
-		element.style.lineHeight = this.config.line_height
+		const wrapper = document.createElement("div");
+		
+		let title = document.createElement("div")
+		title.className = "title"
+		title.style.fontSize = "x-large"
+		title.style.fontWeight = this.config.font_weight
+		title.style.textAlign = this.config.text_align
+		title.style.lineHeight = "2"
+		
+		let wisdom = document.createElement("div")
+		wisdom.className = "wisdom"
+		wisdom.style.fontSize = this.config.font_size
+		wisdom.style.fontWeight = this.config.font_weight
+		wisdom.style.textAlign = this.config.text_align
+		wisdom.style.lineHeight = this.config.line_height
+		wisdom.style.width = "400px"
+		
 		
 		if (this.today > 0){
 			if (this.config.show_page)
-				element.innerHTML = "Day: " + this.today + " - " + this.saveinfo[0] + "<br>" + this.saveinfo[1]
+				title.innerHTML = "Day: " + this.today + " - " + this.saveinfo[0]
+				wisdom.innerHTML = this.saveinfo[1]
 			if (this.config.show_author_book)
-				element.innerHTML = element.innerHTML + " - Thich Nhat Hanh, \"YourTrueHome\""
+				wisdom.innerHTML = wisdom.innerHTML + " - Thich Nhat Hanh, \"YourTrueHome\""
 		}
-		return element
+		
+		wrapper.appendChild(title);
+		wrapper.appendChild(wisdom);
+		return wrapper
 	},
 	notificationReceived: function(notification, payload, sender) {
 		switch(notification){
