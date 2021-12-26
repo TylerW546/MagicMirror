@@ -15,7 +15,7 @@
   --gap-body-bottom: 0px; // Default is 60
   --gap-body-left: 20px; // Default is 60
 
-  --gap-modules: 0px; // 30
+  --gap-modules: 20px; // 30
 }
 
 html {
