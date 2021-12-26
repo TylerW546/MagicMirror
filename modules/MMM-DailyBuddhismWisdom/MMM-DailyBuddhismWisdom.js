@@ -18,7 +18,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		title.style.fontSize = "x-large"
 		title.style.fontWeight = this.config.font_weight
 		title.style.textAlign = this.config.text_align
-		title.style.lineHeight = "5"
+		title.style.lineHeight = "2"
 		
 		let wisdom = document.createElement("div")
 		wisdom.className = "wisdom"
