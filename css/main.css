@@ -57,7 +57,16 @@ body {
 
 .bright {
   color: var(--color-text-bright);
-  text-align: center;
+}
+
+
+/* NEWSFEEDS ---------------- */
+.bright.forArticleHeader {
+  text-align: right;
+}
+
+.dimmed.forNewsProvider {
+  text-align: left;
 }
 
 .xsmall {
