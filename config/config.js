@@ -68,7 +68,7 @@ let config = {
                 transitionInterval: 10000,
                 ignoreModules: [],
                 mode: 'positional',
-                top_left: {enabled: false, ignoreModules: [], overrideTransitionInterval: 10000},
+                bottom_left: {enabled: true, ignoreModules: [], overrideTransitionInterval: 10000},
                 top_right: {enabled: false, ignoreModules: []}
             }
         },
@@ -80,6 +80,13 @@ let config = {
         		font_weight: "600",
         		text_align: "center",
         		show_author_book: false
+    		}
+		},
+		{
+    		module: "MMM-JokeAPI",
+    		position: "bottom_left",
+    		config: {
+        		category: "Any"
     		}
 		},
 		{
