@@ -93,6 +93,7 @@ let config = {
 			module: "weather",
 			position: "top_right",
 			config: {
+				units = "imperial",
 				weatherProvider: "openweathermap",
 				type: "current",
 				location: "Gloucester",
@@ -105,6 +106,7 @@ let config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
+				units = "imperial",
 				weatherProvider: "openweathermap",
 				type: "hourly",
 				location: "Gloucester",

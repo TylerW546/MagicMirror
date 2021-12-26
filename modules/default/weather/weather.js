@@ -32,7 +32,7 @@ Module.register("weather", {
 		showIndoorTemperature: false,
 		showIndoorHumidity: false,
 		maxNumberOfDays: 5,
-		maxEntries: 5,
+		maxEntries: 10,
 		ignoreToday: false,
 		fade: true,
 		fadePoint: 0.25, // Start on 1/4th of the list.
