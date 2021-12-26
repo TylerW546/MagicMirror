@@ -63,9 +63,9 @@ let config = {
 			}
 		},
 		{
-    	module: "MMM-DailyBuddhismWisdom",
-    	position: "top_bar",
-
+    		module: "MMM-DailyBuddhismWisdom",
+    		position: "top_bar",
+    		header: "Daily Wisdom",
     		config: {
         		font_size: "medium",
         		font_weight: "500",
