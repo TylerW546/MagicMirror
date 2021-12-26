@@ -10,9 +10,9 @@
   --font-size: 20px;
   --font-size-small: 0.75rem;
 
-  --gap-body-top: 5px;
+  --gap-body-top: 0px;
   --gap-body-right: 5px;
-  --gap-body-bottom: 5px;
+  --gap-body-bottom: 0px;
   --gap-body-left: 5px;
 
   --gap-modules: 30px;
