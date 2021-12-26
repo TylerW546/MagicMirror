@@ -14,15 +14,15 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		const wrapper = document.createElement("div");
 		
 		let title = document.createElement("div")
-		title.className = "x-large"
-		title.style.fontSize = this.config.font_size
+		title.className = "title"
+		title.style.fontSize = "x-large"
 		title.style.fontWeight = this.config.font_weight
 		title.style.textAlign = this.config.text_align
 		title.style.lineHeight = this.config.line_height
 		
 		let wisdom = document.createElement("div")
 		wisdom.className = "wisdom"
-		wisdom.style.fontSize = 50px;
+		wisdom.style.fontSize = this.config.font_size
 		wisdom.style.fontWeight = this.config.font_weight
 		wisdom.style.textAlign = this.config.text_align
 		wisdom.style.lineHeight = this.config.line_height
