@@ -14,7 +14,7 @@ Module.register("calendar", {
 		limitDays: 0, // Limit the number of days shown, 0 = no limit
 		displaySymbol: true,
 		defaultSymbol: "calendar", // Fontawesome Symbol see https://fontawesome.com/cheatsheet?from=io
-		showLocation: false,
+		showLocation: true,
 		displayRepeatingCountTitle: false,
 		defaultRepeatingCountTitle: "",
 		maxTitleLength: 25,
@@ -26,13 +26,13 @@ Module.register("calendar", {
 		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
 		fade: false,
-		urgency: 7,
+		urgency: 31,
 		timeFormat: "relative",
 		dateFormat: "MMM Do",
 		dateEndFormat: "LT",
 		fullDayEventDateFormat: "MMM Do",
 		showEnd: true,
-		getRelative: 20,
+		getRelative: 6, // Hours that it has to be to say In __ hours   ?
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		hidePrivate: false,
 		hideOngoing: false,
