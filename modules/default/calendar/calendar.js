@@ -299,7 +299,7 @@ Module.register("calendar", {
 			}
 
 			titleWrapper.innerHTML = this.titleTransform(event.title.replace('&#x2327;', ''), this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
-
+			console.log(event.title.replace('&#x2327;', ''))
 			const titleClass = this.titleClassForUrl(event.url);
 
 			if (!this.config.colored) {
