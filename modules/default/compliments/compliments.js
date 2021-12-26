@@ -39,7 +39,10 @@ Module.register("compliments", {
 	// Define start sequence.
 	start: function () {
 		Log.info("Starting module: " + this.name);
-
+		
+		if (this.config.user !== null) {
+			this.config.compliments.anytime.append("Hello Tyler!");
+		}
 
 		this.lastComplimentIndex = -1;
 
