@@ -43,7 +43,6 @@ let config = {
 		},
 		{
 			module: "updatenotification",
-			position: "top_bar"
 		},
 		{
 			module: "clock",
