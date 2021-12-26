@@ -19,7 +19,6 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		title.style.fontWeight = this.config.font_weight
 		title.style.textAlign = this.config.text_align
 		title.style.lineHeight = "5"
-		title.style.text-decoration = "underline"
 		
 		let wisdom = document.createElement("div")
 		wisdom.className = "wisdom"
