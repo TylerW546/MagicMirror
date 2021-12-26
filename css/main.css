@@ -11,9 +11,9 @@
   --font-size-small: 0.75rem;
 
   --gap-body-top: 0px; // Default is 60
-  --gap-body-right: 0px; // Default is 60
+  --gap-body-right: 10px; // Default is 60
   --gap-body-bottom: 0px; // Default is 60
-  --gap-body-left: 0px; // Default is 60
+  --gap-body-left: 10px; // Default is 60
 
   --gap-modules: 30px;
 }
