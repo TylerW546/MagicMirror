@@ -29,8 +29,8 @@ let config = {
 	language: "en",
 	locale: "en-US",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
-	timeFormat: 24,
-	units: "metric",
+	timeFormat: 12,
+	units: "imperial",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
 	//   starts serveronly and then starts chrome browser
@@ -93,7 +93,6 @@ let config = {
 			module: "weather",
 			position: "top_right",
 			config: {
-				tempUnits = "imperial",
 				weatherProvider: "openweathermap",
 				type: "current",
 				location: "Gloucester",
@@ -106,7 +105,6 @@ let config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				tempUnits = "imperial",
 				weatherProvider: "openweathermap",
 				type: "hourly",
 				location: "Gloucester",
