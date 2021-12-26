@@ -9,7 +9,7 @@ Module.register("compliments", {
 	defaults: {
 		user: null,
 		compliments: {
-			anytime: ["Hey there!"],
+			anytime: ["Hey there!", "Hello!"],
 			morning: ["Enjoy your day!", "How was your sleep?"],
 			afternoon: ["Good afternoon!", "Looking good today!"],
 			evening: ["You look nice!"],
@@ -41,7 +41,7 @@ Module.register("compliments", {
 		Log.info("Starting module: " + this.name);
 		
 		if (this.config.user !== null) {
-			this.config.compliments.anytime = ["Hello "+ this.config.user + "!", ""];
+			this.config.compliments.anytime = ["Hello "+ this.config.user + "!", "Hey there " + this.config.user + "!"];
 		}
 
 		this.lastComplimentIndex = -1;
