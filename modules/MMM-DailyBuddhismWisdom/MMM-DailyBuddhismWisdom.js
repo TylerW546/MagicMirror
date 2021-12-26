@@ -15,13 +15,11 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		
 		let title = document.createElement("div")
 		title.className = "bright medium light"
+		title.style.textAlign = "center"
 		
 		let wisdom = document.createElement("div")
-		wisdom.className = "wisdom"
-		wisdom.style.fontSize = this.config.font_size
-		wisdom.style.fontWeight = this.config.font_weight
-		wisdom.style.textAlign = this.config.text_align
-		wisdom.style.lineHeight = this.config.line_height
+		wisdom.className = "normal small thin"
+		wisdom.style.textAlign = "center"
 		wisdom.style.width = "400px"
 		
 		
