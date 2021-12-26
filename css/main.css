@@ -57,6 +57,7 @@ body {
 
 .bright {
   color: var(--color-text-bright);
+  text-align: center;
 }
 
 .xsmall {
