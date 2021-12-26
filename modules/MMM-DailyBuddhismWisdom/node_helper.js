@@ -36,14 +36,6 @@ module.exports = NodeHelper.create({
 			this.content = []
 		}
 	},
-	
-	getDom: function () {
-		const titleDiv = document.createElement("div");
-		const wisdomDiv = document.createElement("div");
-		titleDiv.innerHTML = this.title;
-		wisdomDiv.innerHTML = this.wisdom;
-	
-	}
 socketNotificationReceived: function(notification, payload) {
 	switch(notification) {
 		case "DO_YOUR_JOB":
