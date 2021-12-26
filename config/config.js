@@ -116,6 +116,11 @@ let config = {
 			module: "newsfeed",
 			position: "bottom_right",
 			config: {
+				showDescription: true,
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true,
 				feeds: [
 					{
 						title: "New York Times",
@@ -173,11 +178,7 @@ let config = {
 						title: "The New Inquiry",
 						url: "https://thenewinquiry.com/feed/"
 					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true
+				]
 			}
 		},
 	]
