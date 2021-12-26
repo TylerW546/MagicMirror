@@ -83,13 +83,6 @@ let config = {
     		}
 		},
 		{
-    		module: "MMM-JokeAPI",
-    		position: "bottom_left",
-    		config: {
-        		category: "Any"
-    		}
-		},
-		{
 			module: "compliments",
 			position: "lower_third"
 		},
