@@ -7,7 +7,7 @@
 Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
-		user: "User",
+		user: null,
 		compliments: {
 			anytime: ["Hey there!"],
 			morning: ["Enjoy your day!", "How was your sleep?"],
@@ -26,6 +26,7 @@ Module.register("compliments", {
 		random: true,
 		mockDate: null
 	},
+
 	lastIndexUsed: -1,
 	// Set currentweather from module
 	currentWeatherType: "",
@@ -38,6 +39,10 @@ Module.register("compliments", {
 	// Define start sequence.
 	start: function () {
 		Log.info("Starting module: " + this.name);
+		
+		if (this.config.user != null) {
+			this.config.compliments.anytime.append("Hello Tyler!");
+		}
 
 		this.lastComplimentIndex = -1;
 
