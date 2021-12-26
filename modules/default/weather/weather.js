@@ -33,7 +33,7 @@ Module.register("weather", {
 		showIndoorHumidity: false,
 		maxNumberOfDays: 9,
 		maxEntries: 10,
-		ignoreToday: true,
+		ignoreToday: false,
 		fade: false,
 		fadePoint: 0.20, // Start on 1/4th of the list.
 		initialLoadDelay: 0, // 0 seconds delay
