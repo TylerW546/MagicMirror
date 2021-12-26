@@ -299,10 +299,7 @@ Module.register("calendar", {
 			}
 
 			// event.title is modified to remove unknown emojis
-			titleString = event.title.replace(/\p{Emoji}/gu, '');
-			while (titleString.charAt(0) === ' ') {
-				titleString = titleString.slice(1);
-			}
+			titleString = event.title.replace(/\p{Emoji}/gu, '').trim();
 			titleWrapper.innerHTML = this.titleTransform(titleString, this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
 			
 			const titleClass = this.titleClassForUrl(event.url);
