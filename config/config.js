@@ -63,6 +63,16 @@ let config = {
 			}
 		},
 		{
+            module: 'MMM-Carousel',
+            config: {
+                transitionInterval: 10000,
+                ignoreModules: [],
+                mode: 'positional',
+                top_left: {enabled: true, ignoreModules: [], overrideTransitionInterval: 15000},
+                top_right: {enabled: true, ignoreModules: ['currentweather']}
+            }
+        },
+		{
     		module: "MMM-DailyBuddhismWisdom",
     		position: "bottom_left",
     		config: {
