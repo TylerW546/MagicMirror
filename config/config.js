@@ -57,7 +57,7 @@ let config = {
               calendars: [
                 {
                   symbol: "calendar-week",
-                  calendarID: "c_h2du2qni6fqfqc7pjga5tokv08@group.calendar.google.com"
+                  calendarID: "c_h2du2qni6fqfqc7pjga5tokv08"
                 },
               ],
             }
