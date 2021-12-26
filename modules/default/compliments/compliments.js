@@ -7,9 +7,8 @@
 Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
-		user: "User",
 		compliments: {
-			anytime: [("Hey there ","!").join('')],
+			anytime: ["Hey there!"],
 			morning: ["Enjoy your day!", "How was your sleep?"],
 			afternoon: ["Good afternoon!", "Looking good today!"],
 			evening: ["You look nice!"],
