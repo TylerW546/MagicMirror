@@ -64,10 +64,10 @@ let config = {
 		},
 		{
     		module: "MMM-DailyBuddhismWisdom",
-    		position: "top_bar",
+    		position: "bottom_left",
     		config: {
         		font_size: "large",
-        		font_weight: "750",
+        		font_weight: "600",
         		text_align: "center",
         		show_author_book: false
     		}
