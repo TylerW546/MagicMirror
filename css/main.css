@@ -224,7 +224,7 @@ sup {
 
 .region.third,
 .region.middle.center {
-  width: 60%;
+  width: 100%;
   text-align: center;
   transform: translateY(-50%);
 }

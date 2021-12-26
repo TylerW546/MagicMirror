@@ -96,7 +96,7 @@ let config = {
 		{
 			module: "weather",
 			position: "top_right",
-			header: "Weather Forecast",
+			header: "Weather",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
@@ -108,7 +108,7 @@ let config = {
 		{
 			module: "weather",
 			position: "top_right",
-			header: "Weather Forecast",
+			header: "Daily Forecast - ",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "daily",
