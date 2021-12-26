@@ -106,7 +106,7 @@ let config = {
 			header: "Weather Forecast",
 			config: {
 				weatherProvider: "openweathermap",
-				type: "hourly",
+				type: "daily",
 				location: "Gloucester",
 				locationID: "4937829", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "a6b96781aa37b69e37f6070da71cad8e"

@@ -25,17 +25,17 @@ Module.register("weather", {
 		showWindDirectionAsArrow: false,
 		useBeaufort: true,
 		lang: config.language,
-		showHumidity: false,
+		showHumidity: true,
 		showSun: true,
 		degreeLabel: false,
 		decimalSymbol: ".",
 		showIndoorTemperature: false,
 		showIndoorHumidity: false,
-		maxNumberOfDays: 5,
+		maxNumberOfDays: 7,
 		maxEntries: 10,
 		ignoreToday: false,
 		fade: true,
-		fadePoint: 0.25, // Start on 1/4th of the list.
+		fadePoint: 0.20, // Start on 1/4th of the list.
 		initialLoadDelay: 0, // 0 seconds delay
 		appendLocationNameToHeader: true,
 		calendarClass: "calendar",
