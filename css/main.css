@@ -237,7 +237,7 @@ sup {
 .region.top.right,
 .region.bottom.left,
 .region.bottom.right {
-  width: 20%;
+  max-width: 20%;
 }
 
 
