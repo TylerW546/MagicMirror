@@ -41,7 +41,7 @@ Module.register("compliments", {
 		Log.info("Starting module: " + this.name);
 		
 		if (this.config.user !== null) {
-			this.config.compliments.anytime = ["Hello "+ this.config.user + "!", "Hey there " + this.config.user + "!"];
+			this.config.compliments.anytime = ["Hello, "+ this.config.user + "!", "Hey there, " + this.config.user + "!"];
 		}
 
 		this.lastComplimentIndex = -1;
