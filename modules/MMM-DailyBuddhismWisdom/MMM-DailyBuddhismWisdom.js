@@ -20,12 +20,14 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		title.style.textAlign = this.config.text_align
 		title.style.lineHeight = this.config.line_height
 		
+		
 		let wisdom = document.createElement("div")
 		wisdom.className = "wisdom"
 		wisdom.style.fontSize = this.config.font_size
 		wisdom.style.fontWeight = this.config.font_weight
 		wisdom.style.textAlign = this.config.text_align
 		wisdom.style.lineHeight = this.config.line_height
+		wisdom.style.width = "400px"
 		
 		
 		if (this.today > 0){
