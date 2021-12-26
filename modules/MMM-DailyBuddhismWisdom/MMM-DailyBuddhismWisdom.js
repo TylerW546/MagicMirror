@@ -31,7 +31,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		if (this.today > 0){
 			if (this.config.show_page)
 				title.innerHTML = "Day: " + this.today + " - " + this.saveinfo[0]
-				wisdom.innerHTML = saveinfo[1]
+				wisdom.innerHTML = this.saveinfo[1]
 			if (this.config.show_author_book)
 				wisdom.innerHTML = element.innerHTML + " - Thich Nhat Hanh, \"YourTrueHome\""
 		}
