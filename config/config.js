@@ -125,6 +125,46 @@ let config = {
 						title: "CNN",
 						url: "http://rss.cnn.com/rss/cnn_topstories.rss"
 					},
+					{
+						title: "New Climate Organization",
+						url: "https://newclimate.org/feed/"
+					},
+					{
+						title: "Science News",
+						url: "https://www.sciencenews.org/feed"
+					},
+					{
+						title: "Quanta Magazine",
+						url: "https://api.quantamagazine.org/feed/"
+					},
+					{
+						title: "Physics World",
+						url: "https://physicsworld.com/feed/"
+					},
+					{
+						title: "KurzweilAI News",
+						url: "https://www.kurzweilai.net/feed"
+					},
+					{
+						title: "Under30CEO",
+						url: "https://www.under30ceo.com/feed/"
+					},
+					{
+						title: "The Marginalian",
+						url: "https://www.themarginalian.org/feed/"
+					},
+					{
+						title: "Experience Life",
+						url: "https://experiencelife.lifetime.life/feed/"
+					},
+					{
+						title: "New York Books",
+						url: "https://www.nybooks.com/feed/"
+					},
+					{
+						title: "The New Inquiry",
+						url: "https://thenewinquiry.com/feed/"
+					}
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
