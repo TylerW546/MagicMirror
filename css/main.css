@@ -233,6 +233,14 @@ sup {
   text-align: left;
 }
 
+.region.top.left,
+.region.top.right,
+.region.bottom.left,
+.region.bottom.right {
+  width: 20%;
+}
+
+
 .region table {
   width: 100%;
   border-spacing: 0;
