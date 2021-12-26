@@ -122,6 +122,14 @@ let config = {
 						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
 					},
 					{
+						title: "New York Times - Technology",
+						url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+					},
+					{
+						title: "BBC",
+						url: "http://feeds.bbci.co.uk/news/video_and_audio/news_front_page/rss.xml?edition=uk",
+					},
+					{
 						title: "CNN",
 						url: "http://rss.cnn.com/rss/cnn_topstories.rss"
 					},
