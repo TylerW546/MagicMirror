@@ -52,7 +52,7 @@ let config = {
 		{
             module: 'MMM-GoogleCalendar',
             header: "My Google Calendar",
-            position: "top_left",
+            position: "first_third",
             config: {
               calendars: [
                 {
