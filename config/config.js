@@ -58,6 +58,10 @@ let config = {
 					{
 						symbol: "calendar",
 						url: "https://rest.cozi.com/api/ext/1103/3cc0e090-23b4-4d4e-a7de-4d8f173bc2a9/icalendar/feed/feed.ics"
+					},
+					{
+						symbol: "calendar",
+						url: "https://calendar.google.com/calendar/ical/tylerjweed%40gmail.com/public/basic.ics"
 					}
 				]
 			}
