@@ -23,7 +23,7 @@ Module.register("calendar", {
 		wrapLocationEvents: false,
 		maxTitleLines: 3,
 		maxEventTitleLines: 3,
-		fetchInterval: 1 * 60 * 1000, // Update every 1 minute.
+		fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
 		animationSpeed: 2000,
 		fade: false,
 		urgency: 7,
@@ -31,8 +31,8 @@ Module.register("calendar", {
 		dateFormat: "MMM Do",
 		dateEndFormat: "LT",
 		fullDayEventDateFormat: "MMM Do",
-		showEnd: false,
-		getRelative: 6,
+		showEnd: true,
+		getRelative: 20,
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		hidePrivate: false,
 		hideOngoing: false,
