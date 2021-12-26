@@ -50,18 +50,18 @@ let config = {
 			position: "top_left"
 		},
 		{
-            module: "MMM-GoogleCalendar",
-            header: "My Google Calendar",
-            position: "top_left",
-            config: {
-              calendars: [
-                {
-                  symbol: "calendar-week",
-                  calendarID: "c_h2du2qni6fqfqc7pjga5tokv08"
-                },
-              ],
-            }
-        },
+			module: "calendar",
+			header: "US Holidays",
+			position: "top_left",
+			config: {
+				calendars: [
+					{
+						symbol: "calendar-check",
+						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
+					}
+				]
+			}
+		},
 		{
     		module: "MMM-DailyBuddhismWisdom",
     		position: "bottom_left",
