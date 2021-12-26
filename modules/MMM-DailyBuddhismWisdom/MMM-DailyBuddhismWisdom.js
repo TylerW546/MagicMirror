@@ -18,8 +18,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		title.style.fontSize = "x-large"
 		title.style.fontWeight = this.config.font_weight
 		title.style.textAlign = this.config.text_align
-		title.style.lineHeight = this.config.line_height
-		
+		title.style.lineHeight = "5"
 		
 		let wisdom = document.createElement("div")
 		wisdom.className = "wisdom"
@@ -35,7 +34,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 				title.innerHTML = "Day: " + this.today + " - " + this.saveinfo[0]
 				wisdom.innerHTML = this.saveinfo[1]
 			if (this.config.show_author_book)
-				wisdom.innerHTML = element.innerHTML + " - Thich Nhat Hanh, \"YourTrueHome\""
+				wisdom.innerHTML = wisdom.innerHTML + " - Thich Nhat Hanh, \"YourTrueHome\""
 		}
 		
 		wrapper.appendChild(title);
