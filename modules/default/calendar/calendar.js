@@ -298,7 +298,7 @@ Module.register("calendar", {
 				}
 			}
 
-			titleWrapper.innerHTML = this.titleTransform(event.title.replace('S', 'A'), this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
+			titleWrapper.innerHTML = this.titleTransform(event.title.charAt(0), this.config.titleReplace, this.config.wrapEvents, this.config.maxTitleLength, this.config.maxTitleLines) + repeatingCountTitle;
 			const titleClass = this.titleClassForUrl(event.url);
 
 			if (!this.config.colored) {
