@@ -224,10 +224,10 @@ sup {
 
 .region.third,
 .region.middle.center {
+  margin: 0 auto;
   width: 60%;
   text-align: center;
   transform: translateY(-50%);
-  margin: auto;
 }
 
 .region.upper.third {
