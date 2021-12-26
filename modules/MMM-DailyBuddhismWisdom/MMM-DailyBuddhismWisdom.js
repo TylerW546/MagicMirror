@@ -18,7 +18,7 @@ Module.register("MMM-DailyBuddhismWisdom", {
 		title.style.textAlign = "center"
 		
 		let wisdom = document.createElement("div")
-		wisdom.className = "normal small thin"
+		wisdom.className = "normal small regular"
 		wisdom.style.textAlign = "center"
 		wisdom.style.width = "400px"
 		
