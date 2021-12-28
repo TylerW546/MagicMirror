@@ -373,7 +373,7 @@ Module.register("calendar", {
 					if (event.startDate >= now) {
 						// Use relative  time
 						if (!this.config.hideTime) {
-							timeWrapper.innerHTML = event.startDate//this.capFirst(moment(event.startDate, "x").calendar(null, { sameElse: this.config.dateFormat }));
+							timeWrapper.innerHTML = this.capFirst(moment(event.startDate, "x").calendar(null, { sameElse: this.config.dateFormat }));
 						} else {
 							timeWrapper.innerHTML = this.capFirst(
 								moment(event.startDate, "x").calendar(null, {
