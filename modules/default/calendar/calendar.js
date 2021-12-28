@@ -354,7 +354,7 @@ Module.register("calendar", {
 						);
 					} else if (this.config.urgency > 0 && event.startDate - now < this.config.urgency * oneDay) {
 						// Within urgency days
-						timeWrapper.innerHTML = this.capFirst(moment(event.startDate, "x").fromNow());
+						timeWrapper.innerHTML = event.startDate//this.capFirst(moment(event.startDate, "x").fromNow());
 					}
 					if (event.fullDayEvent && this.config.nextDaysRelative) {
 						// Full days events within the next two days
