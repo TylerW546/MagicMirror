@@ -32,7 +32,7 @@ Module.register("calendar", {
 		dateEndFormat: "LT",
 		fullDayEventDateFormat: "MMM Do",
 		showEnd: true,
-		getRelative: 6, // Hours that it has to be to say In __ hours   ?
+		getRelative: 0, // Hours that it has to be to say In __ hours   ?
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		hidePrivate: false,
 		hideOngoing: false,
