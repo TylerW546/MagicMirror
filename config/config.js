@@ -100,6 +100,11 @@ let config = {
 			}
 		},
 		{
+			module: 'MMM-Api',
+			position: 'bottom_left',
+			header: 'Remote URL',
+		},
+		{
 			module: "compliments",
 			position: "lower_third",
 			config: {
