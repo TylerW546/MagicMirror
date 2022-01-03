@@ -86,9 +86,18 @@ let config = {
     		}
 		},
 		{
-			module: 'MMM-Api',
+			module: 'MMM-Remote-Control',
 			position: 'bottom_left',
 			header: 'Remote URL',
+			config: {
+				customCommand: {},  // Optional, See "Using Custom Commands" below
+				showModuleApiMenu: true, // Optional, Enable the Module Controls menu
+				secureEndpoints: true, // Optional, See API/README.md
+				// uncomment any of the lines below if you're gonna use it
+				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
+				// apiKey: "", // Optional, See API/README.md for details
+				// classes: {} // Optional, See "Custom Classes" below
+			}
 		},
 		{
 			module: "compliments",
