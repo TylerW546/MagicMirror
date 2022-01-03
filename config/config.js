@@ -100,6 +100,10 @@ let config = {
 			}
 		},
 		{
+			module: 'MMM-awesome-alexa',
+			position: 'bottom_left',
+		},
+		{
 			module: "compliments",
 			position: "lower_third",
 			config: {
