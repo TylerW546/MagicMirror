@@ -100,8 +100,18 @@ let config = {
 			}
 		},
 		{
-			module: 'MMM-awesome-alexa',
-			position: 'bottom_left',
+			module: "MMM-awesome-alexa",
+				position: "top_left",
+				configDeepMerge: true,
+				config: {
+					avs: {
+					ProductID: "Mirror",
+					ClientID: "amzn1.application-oa2-client.XXX",
+					ClientSecret: "XXX",
+					InitialCode: "XXX",
+					deviceSerialNumber: 1234
+					}
+  				}
 		},
 		{
 			module: "compliments",
