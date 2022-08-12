@@ -146,7 +146,7 @@ let config = {
 		},
 		{
 		module: 'MMM-iFrame-Ping',
-		position: 'middle_center',	// This can be any of the regions.
+		position: 'top_right',	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
 			url: "https://magicmirror.builders/", //url to display
