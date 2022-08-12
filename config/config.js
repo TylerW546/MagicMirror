@@ -145,6 +145,22 @@ let config = {
 			}
 		},
 		{
+		module: 'MMM-iFrame-Ping',
+		position: 'middle_center',	// This can be any of the regions.
+		config: {
+			// See 'Configuration options' for more information.
+			url: "https://magicmirror.builders/", //url to display
+			height:"100%", 
+			width:"100%",
+			autoRefresh: true, //set to false for video
+			updateInterval: 1, //in min. Only if autoRefresh: true
+			displayLastUpdate: true,
+			width: "100%", // Optional. Default: 100%
+			height: "400px", //Optional. Default: 100px
+			scrolling: "no" 
+			}
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_right",
 			config: {
